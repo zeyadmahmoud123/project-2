@@ -37,7 +37,7 @@ body {
         position: relative;
         text-align: center;
         z-index: 1;
-        margin-right: 300px;
+        /* margin-right: 300px; */
 }
     
 .content h1 {
@@ -72,7 +72,7 @@ body {
         position: absolute;
         top: 20px;
         right: 20px;
-        margin-right: 90px;
+        /* margin-right: 90px; */
 }
     
 .navbar ul {
@@ -147,5 +147,55 @@ body {
 .learn-more-btn:hover {
         background-color: #555;
 }
-    
-    
+    /* ////////////////////////////////////////////////////// */
+.section3{
+        height: 100vh;
+        background-image: url(../images/offer-background.jpg);
+        position: relative;
+}
+.sectionContainer{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+}
+.special{
+        text-align: center;
+}
+.img{
+        width: 300px;
+        margin: auto auto;
+        text-align: center;
+}
+.img img {
+        margin: 0 auto;
+}
+.paragraph2{
+        color: #f7c04a;
+        padding-top: 10px;
+        font-size: 20px;
+}
+sub{
+        color: #fff;
+}
+.description{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        font-size: 22px;
+}
+.special .description{
+        font-size: 18px;
+}
+.title{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: rgb(244, 248, 21);
+        font-size: 52px;
+}
+#padding{
+        margin: 10px 0 60px 0;
+}
+.capitalize{
+        text-transform: capitalize;
+}
