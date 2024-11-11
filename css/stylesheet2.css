@@ -37,7 +37,7 @@ body {
         position: relative;
         text-align: center;
         z-index: 1;
-        /* margin-right: 300px; */
+        margin-right: 300px;
 }
     
 .content h1 {
@@ -72,7 +72,7 @@ body {
         position: absolute;
         top: 20px;
         right: 20px;
-        /* margin-right: 90px; */
+        margin-right: 90px;
 }
     
 .navbar ul {
